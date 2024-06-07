@@ -1,1 +1,88 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application Form</title>
+	<style>
+		/* Add some basic styling to the form */
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f9f9f9;
+		}
+		
+		form {
+			width: 80%;
+			margin: 40px auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+		}
+		
+		input, textarea, select {
+			width: 90%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 1px solid #ccc;
+		}
+		
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<h2>Tech hiring 24 technology & services</h2>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name"><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+		
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone"><br><br>
+		
+		<label for="program">Program:</label>
+		<select id="program" name="program">
+			<option value="Computer Science">Computer Science</option>
+			<option value="Computer Science">BCA</option>
+			
+			<option value="Engineering">computer Engineering</option>
+			<option value="Business">Data Science</option>
+			<option value="Computer Science">MSC</option>
+			<option value="Engineering">MCA</option>
+			<option value="Business">IMCA</option>
+			<option value="Other">Other</option>
+		</select><br><br>
+		
+		<label for="graduation-date">Graduation completion Date:</label>
+		<input type="date" id="graduation-date" name="graduation-date"><br><br>
+		
+		<label for="job-title">Job Title:</label>
+		<input type="text" id="job-title" name="job-title"><br><br>
+		
+		<label for="job-description">Job Description:</label>
+		<textarea id="job-description" name="job-description"></textarea><br><br>
+		
+		<label for="resume">Resume:</label>
+		<input type="file" id="resume" name="resume"><br><br>
+		
+		<input type="submit" value="Apply">
+	</form>
+</body>
+</html>
